@@ -69,8 +69,58 @@
                 <p class="text-white text-center m-3">Home / Ingresa</p>
             </div>
         </header>
-        <main class="row mb-4">
-            
+        <main class="row m-4">
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="ingresa-tab" data-bs-toggle="tab"
+                        data-bs-target="#ingresa-tab-pane" type="button" role="tab" aria-controls="ingresa-tab-pane"
+                        aria-selected="true">Ingresa</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="registro-tab" data-bs-toggle="tab" data-bs-target="#registro-tab-pane"
+                        type="button" role="tab" aria-controls="registro-tab-pane"
+                        aria-selected="false">Registro</button>
+                </li>
+            </ul>
+            <div class="tab-content mt-4" id="myTabContent">
+                <div class="tab-pane fade show active" id="ingresa-tab-pane" role="tabpanel"
+                    aria-labelledby="ingresa-tab">
+                    <h3>Acceder</h3>
+                    <form>
+                        <div class="form-group mt-2">
+                            <label for="loginEmail">Correo electrónico:</label>
+                            <input type="email" class="form-control" id="loginEmail"
+                                placeholder="Ingresa tu correo electrónico">
+                        </div>
+                        <div class="form-group mt-2">
+                            <label for="loginPassword">Contraseña:</label>
+                            <input type="password" class="form-control" id="loginPassword"
+                                placeholder="Ingresa tu contraseña">
+                        </div>
+                        <button type="submit" class="btn btn-primary mt-2">Acceder</button>
+                    </form>
+                </div>
+                <div class="tab-pane fade" id="registro-tab-pane" role="tabpanel" aria-labelledby="registro-tab">
+                    <h3>Crear cuenta</h3>
+                    <form>
+                        <div class="form-group mt-2">
+                            <label for="registerName">Nombre:</label>
+                            <input type="text" class="form-control" id="registerName" placeholder="Ingresa tu nombre">
+                        </div>
+                        <div class="form-group mt-2">
+                            <label for="registerEmail">Correo electrónico:</label>
+                            <input type="email" class="form-control" id="registerEmail"
+                                placeholder="Ingresa tu correo electrónico">
+                        </div>
+                        <div class="form-group mt-2">
+                            <label for="registerPassword">Contraseña:</label>
+                            <input type="password" class="form-control" id="registerPassword"
+                                placeholder="Ingresa tu contraseña">
+                        </div>
+                        <button type="submit" class="btn btn-primary mt-2">Registrarse</button>
+                    </form>
+                </div>
+            </div>
         </main>
         <div class="divider"></div>
         <footer class="row">

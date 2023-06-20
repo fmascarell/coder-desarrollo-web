@@ -70,7 +70,49 @@
             </div>
         </header>
         <main class="row mb-4">
-            
+            <div class="container">
+                <h3 class="text-left mb-4 mt-4">Contacto</h3>
+                <div class="row">
+                    <div class="col-md-6 col-sm-6">
+                        <div class="prod text-center">
+                            <a href="#">
+                                <img class="img-fluid" src="../images/contacto.jpg" alt="foto fábrica">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6">
+                        <form>
+                            <div class="mb-3">
+                                <label for="nombre" class="form-label">Nombre</label>
+                                <input type="text" class="form-control" id="nombre" placeholder="Ingrese su nombre">
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Email</label>
+                                <input type="email" class="form-control" id="email" placeholder="Ingrese su email">
+                            </div>
+                            <div class="mb-3">
+                                <label for="telefono" class="form-label">Teléfono</label>
+                                <input type="telefono" class="form-control" id="telefono" placeholder="Ingrese su teléfono">
+                            </div>
+                            <div class="mb-3">
+                                <label for="asunto" class="form-label">Asunto</label>
+                                <select class="form-select" id="asunto">
+                                    <option value="">Seleccione un asunto</option>
+                                    <option value="consulta">Consulta</option>
+                                    <option value="sugerencia">Sugerencia</option>
+                                    <option value="reclamo">Reclamo</option>
+                                </select>
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensaje" class="form-label">Mensaje</label>
+                                <textarea class="form-control" id="mensaje" rows="2"
+                                    placeholder="Ingrese su mensaje"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Enviar</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
         </main>
         <div class="divider"></div>
         <footer class="row">

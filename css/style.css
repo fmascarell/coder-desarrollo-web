@@ -8,16 +8,10 @@ body {
 }
 
 .logo {
-    margin-right: 10px;
     width: 70px;
-    margin-left: 10px;
     vertical-align: middle;
 }
 
 .custom {
     background-color: white;
-}
-
-.custom-carousel {
-    height: 800px;
 }

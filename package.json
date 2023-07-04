@@ -1,0 +1,21 @@
+{
+  "name": "preentrega2-mascarell",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1", 
+    "watch:scss" : "sass --watch ./style/scss/main.scss ./style/css/style.css" 
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fmascarell/coder-desarrollo-web.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fmascarell/coder-desarrollo-web/issues"
+  },
+  "homepage": "https://github.com/fmascarell/coder-desarrollo-web#readme"
+}
